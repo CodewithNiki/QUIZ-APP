@@ -63,16 +63,16 @@ let questions = [
   {
     question:
       "If the population of a town was 240,000 in January 1998 and it increased by 2% each year, what would be the population of the town in January, 2000?",
-    choiceA: "480,000 ",
-    choiceB: "249,696 ",
-    choiceC: "249,600 ",
+    choiceA: "480,000",
+    choiceB: "249,696",
+    choiceC: "249,600",
     choiceD: "244,800",
     correctAnswer: "249,696",
   },
   {
     question:
       "An equilateral triangle of side √3cm is inscribed in a circle. Find the radius of the circle.",
-    choiceA: " 2/3 cm ",
+    choiceA: " 2/3 cm",
     choiceB: "2 cm",
     choiceC: "1 cm",
     choiceD: "3 cm",
