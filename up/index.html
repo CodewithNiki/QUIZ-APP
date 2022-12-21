@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <section class="question__starter">
+      <h3>START QUIZ</h3>
+    </section>
+
+    <section class="question__container">
+      <header class="question__container--header">
+        <div>
+          <h4>Mathematics Quiz</h4>
+          <h1>Question <span>01</span>/10</h1>
+        </div>
+        <div class="question__container--header__timer">
+          <span id="minute"></span> : 
+          <span id="second"></span>
+        </div>
+      </header>
+
+      <main class="question__container--area">
+        <div class="question__container--area__question">
+        </div>
+        <ul class="question__container--area__answer">
+          <li class="choiceA"></li>
+          <li class="choiceB"></li>
+          <li class="choiceC"></li>
+          <li class="choiceD"></li>
+        </ul>
+      </main>
+
+      <footer class="question__container--footer">
+        <button class="prev">Previous</button>
+        <button class="submit">Submit</button>
+        <button class="next">Next</button>
+      </footer>
+    </section>
+
+    <section class="question__result">
+      <div></div>
+      <button>Retry</button>
+    </section>
+  </body>
+  <script src="script.js"></script>
+</html>
