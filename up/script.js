@@ -18,7 +18,7 @@ const resultContainer = document.querySelector(".question__result");
 const resultScore = document.querySelector(".question__result div");
 const questionReload = document.querySelector(".question__result button");
 
-let [millisec, sec, min] = [0, 60, 9];
+let [millisec, sec, min] = [0, 60, 4];
 let activeQuestion = 0;
 let score = 0;
 let num = 1;
@@ -119,7 +119,7 @@ let lastQuestion = questions.length - 1;
 open.addEventListener("click", () => {
   open.classList.add("open");
   questionContainer.style.display = "flex";
-  minCountDown.innerHTML = "10";
+  minCountDown.innerHTML = "5";
   secCountDown.innerHTML = "00";
 
   setInterval(countDown, 10);
