@@ -233,10 +233,7 @@ function checkAnswer(answer) {
   if (answer === questions[activeQuestion].correctAnswer) {
     score = activeQuestion + 1;
   }
-  else if(answer !== questions[activeQuestion].correctAnswer && activeQuestion > 0){
-    activeQuestion++;
-    score = activeQuestion - 1;
-  }
+  
   else{
     score = 0;
   }
