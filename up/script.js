@@ -53,7 +53,7 @@ let questions = [
   },
   {
     question:
-      "Let P = {1, 2, u, v, w, x}; Q = {2, 3, u, v, w, 5, 6, y} and R = {2, 3, 4, v, x, y}.",
+      "Let P = {1, 2, u, v, w, x}; Q = {2, 3, u, v, w, 5, 6, y} and R = {2, 3, 4, v, x, y}. Determine (P-Q) ∩ R",
     choiceA: "{1, x}",
     choiceB: "{x, y}",
     choiceC: "{x}",
